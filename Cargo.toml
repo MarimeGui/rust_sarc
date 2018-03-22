@@ -1,0 +1,12 @@
+[package]
+name = "sarc"
+version = "0.1.0"
+authors = ["guillaume <lepro.guillaume@gmail.com>"]
+
+[lib]
+name = "sarc"
+
+[dependencies]
+enum_primitive = "0.1.1"
+yaz0lib_rust = { git = "https://github.com/MarimeGui/yaz0lib_rust" }
+ez_io = { git = "https://github.com/MarimeGui/ez_io" }
